@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "254004145198",
+    "firebase_url": "https://big-basket-d8cf6.firebaseio.com",
+    "project_id": "big-basket-d8cf6",
+    "storage_bucket": "big-basket-d8cf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254004145198:android:75f17ab5df689f715083bf",
+        "android_client_info": {
+          "package_name": "com.example.bigbasket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254004145198-h8t58imkp89abuppahp1p2ki14rh9vvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-UkJxoHlwt9KsnEP0VxKMR5HWO7z3LzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254004145198-h8t58imkp89abuppahp1p2ki14rh9vvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    tools:context=".CatTwoDetails">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:id="@+id/title"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            ></TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/title"
+            android:id="@+id/image"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp">
+
+        </ImageView>
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Prize"
+            android:id="@+id/prize"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:layout_below="@+id/image"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            ></TextView>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Rs per Kg"
+            android:id="@+id/unit"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/image"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true" />
+
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:id="@+id/number_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prize"
+
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_gravity="center"
+
+            android:layout_marginRight="87dp"
+            android:layout_marginLeft="87dp"
+            android:layout_marginTop="10dp"
+            android:elevation="6dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            app:backGroundColor="@color/green"
+            app:finalNumber="10"
+            app:initialNumber="0"
+            app:textSize="10dp">
+
+
+        </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/number_btn"
+            android:id="@+id/cart_btn"
+            android:background="@color/green"
+            android:text="ADD TO CART"
+
+            android:gravity="center"
+
+android:textColor="@color/textColor"
+
+            android:layout_marginTop="10dp">
+
+        </Button>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

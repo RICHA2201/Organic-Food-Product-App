@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".CartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:id="@+id/rl"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+android:background="@color/colorPrimary"
+       android:layout_alignParentTop="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Price="
+        android:id="@+id/totalprice"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"></TextView>
+   </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:id="@+id/cart_list"
+        android:layout_above="@+id/order"
+        android:layout_below="@+id/rl">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="ORDER"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_margin="10dp"></Button>
+</RelativeLayout>
